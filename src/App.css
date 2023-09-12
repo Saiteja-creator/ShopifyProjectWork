@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.largeDevice {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .largeDevice {
+    display: block;
+  }
+}
+.smallDevice {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .smallDevice {
+    display: block;
+  }
+}

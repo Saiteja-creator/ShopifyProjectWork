@@ -1,0 +1,12 @@
+.button-container-el {
+  min-width: 100vw;
+}
+.button-style {
+  background-color: transparent;
+  width: 30vw;
+  cursor: pointer;
+  border: none;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}

@@ -1,0 +1,100 @@
+.large_device {
+  display: flex;
+  justify-content: space-between;
+  min-width: 100vw;
+}
+@media screen and (max-width: 768px) {
+  .large_device {
+    display: none;
+  }
+}
+
+.image-container-large {
+  display: flex;
+  align-items: center;
+
+  margin-left: 30px;
+}
+
+.NavBarImage {
+  width: 40px;
+  height: 40px;
+}
+.heading-large {
+  font-style: bold;
+  margin-right: 10px;
+  font-family: 'Roboto';
+}
+.arrow-down {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.Nav-para {
+  margin-right: 4px;
+  font-size: 15px;
+  font-style: bold;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.button-container {
+  margin-top: 20px;
+  margin-right: 100px;
+}
+.large-login-button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 15px;
+  margin-right: 30px;
+  font-weight: 700;
+}
+.large-start-button {
+  background-color: black;
+  text-align: center;
+  color: white;
+  border-radius: 12px;
+  padding: 6px;
+}
+.small-device {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 100vw;
+}
+
+@media screen and (min-width: 768px) {
+  .small-device {
+    display: none;
+  }
+}
+.button-small {
+  margin-right: 20px;
+}
+.start-button {
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+  margin: 4px;
+  cursor: pointer;
+}
+.adjust-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.each-list {
+  list-style-type: none;
+  margin-right: 30px;
+}
+@media screen and (min-width: 768px) {
+  .displayList {
+    display: none;
+  }
+}

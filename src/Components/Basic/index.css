@@ -1,0 +1,32 @@
+.price-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.offer-para {
+  font-weight: bold;
+  background-color: #c9cde4;
+  text-align: center;
+  padding: 4px;
+}
+.description-container {
+  margin-left: 10px;
+}
+.description-head {
+  font-weight: bold;
+}
+.description-with-symbol {
+  display: flex;
+  margin-bottom: 0px;
+
+  align-items: center;
+}
+.des-para {
+  margin-left: 10px;
+}
+
+.symbol {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
